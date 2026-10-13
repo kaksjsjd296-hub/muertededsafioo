@@ -1,0 +1,4 @@
+{
+  "dedsafio": { "sounds": [ { "name": "muertededsafio:dedsafio" } ] },
+  "ruleta":   { "sounds": [ { "name": "muertededsafio:ruleta" } ] }
+}

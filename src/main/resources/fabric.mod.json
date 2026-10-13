@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "muertededsafio",
+  "version": "${version}",
+  "name": "Muerte Dedsafío",
+  "description": "Animación de muerte del Dedsafío 3 (assets por AdeAbel). Al morir alguien sale la animación para todos, el jugador pasa a espectador y deja su cabeza sobre una valla y bedrock. Comando: /momento hardcore anim",
+  "authors": ["AdeAbel (assets)"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.muertededsafio.MuerteDedsafio"],
+    "client": ["com.muertededsafio.client.MuerteDedsafioClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
